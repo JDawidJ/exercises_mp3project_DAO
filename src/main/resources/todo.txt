@@ -1,0 +1,47 @@
+1. Przechwuje liste albumów wraz z mp3
+2. Tworzenie kategorii albumów
+-lista piosenek
+-tytuł
+-wykonawca
+    -lista członków zespołu
+-rok wydania
+-wydawnictwo fonograficzne
+-kategoria/gatunek
+-okładka
+-cena
+-okładka
+-ocena/komentrz
+- rodzaj nosnika
+Piosenka:
+    -długos
+    -tytuł
+    -album-pochodzenie
+    -ocena(liczbowa)
+
+
+3. Możliwość wyszukiwania
+=kategorie
+-albumy
+-piosenki
+-długosc piosenki
+-wyknawca
+-rok wydania
+4. GUI
+
+5. Dodawanie/usuwanie/modyfikowanie albumów i mp3
+
+6. Ulubione-piosenki
+7. Własna ocena/komentarz album i piosenki
+8. sortowanie i wyswietlanie
+-albumow
+-piosenki w albumie
+-gatunek-> album->  piosenki
+9. eksport do pliku(jason/xml/inne)
+
+Techniczne kwestie
+1.GUI w Swingu
+2. Testy JUnit/Mockito
+3.Guava
+4. Baza /plik properties
+5. Logger log4j
+
