@@ -4,6 +4,7 @@ import com.google.common.base.Preconditions;
 import com.google.common.base.Strings;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.util.List;
 
 public class Album {
@@ -12,10 +13,11 @@ public class Album {
     private Artist artist;
     private String category;
     private String studio;
-    private int year;
+    private LocalDate year;
     private int rate;
     private BigDecimal price;
     private mediaType mediaType;
+
 
     public void AddSong(Song song){
         this.lisata.add(song);
@@ -34,7 +36,7 @@ public class Album {
       this(lisata, nameAlbum, artist);
         this.category = category;
         this.studio = studio;
-        this.year = year;
+
         this.rate = rate;
         this.price = price;
         this.mediaType = mediaType;
